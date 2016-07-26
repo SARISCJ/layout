@@ -1,0 +1,124 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+img {
+	width: 100%;
+	all:"";
+	padding: 20px 0 20px 0;
+}
+
+.container{ 
+	width: 50%;
+	max-width: 1200px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin: 20px;
+	padding: 5px;
+	padding-left: 0;
+	font-family: tahoma;
+	position: relative;
+	font-size: 20px;
+}
+
+.boton {
+		border-right: 1px solid black;
+		padding-right: 30px;
+}
+header nav ul li:hover{
+	background: orange;
+	position: relative;
+	margin: 0 auto;
+}
+.black{
+	width: 80px;
+	margin: 0px;
+	border: 2px solid black;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.gray {
+	width: 50px;
+	margin: 0 auto;
+	border:1px solid gray;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.centro{
+	width: 60%;
+  	height: 60%;
+  	align-content: center;
+  	margin: 0 auto;
+  	text-align: center;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+}
+
+#coders{
+	display: inline-block;
+	position: relative;
+	clear: both;
+	display: block;
+	position: relative;
+	align-content: center;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+.cod{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px;
+	position: relative;
+	-webkit-filter: brightness(70%);
+  	filter: brightness(70%);
+  	background-size: auto;
+	}
+p{
+	display: inline-block;
+	position: absolute;
+	color: white;
+	bottom: 5px;
+	right: 5px;
+}
+.foto1{
+  	background-image: url("../img/profile-1.png");
+}
+.foto2{
+ 	background-image: url("../img/profile-2.png");
+}
+.foto3{
+  	background-image: url("../img/profile-3.png");
+}
+.foto4{
+  	background-image: url("../img/profile-4.png");
+  	clear: both;
+}
+.foto5{
+  	background-image: url("../img/profile-5.png");
+}
+.foto6{
+  	background-image: url("../img/profile-6.png");
+}
