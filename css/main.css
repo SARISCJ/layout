@@ -60,6 +60,8 @@ header nav ul li:hover{
 	border:1px solid gray;
 	margin-bottom: 30px;
 	margin-top: 20px;
+	margin: 0 auto;
+  	text-align: center;
 }
 .centro{
 	width: 60%;
